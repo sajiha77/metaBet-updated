@@ -52,13 +52,107 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 1080px) {
-    height: 100vh;
+    height: 100%;
     /* justify-content: center; */
   }
 
   @media screen and (max-width: 1024px) {
     height: 100%;
     /* justify-content: center; */
+    .img_free_bets {
+      max-width: 630px;
+    }
+    .end {
+      gap: 110px;
+    }
+  }
+  @media screen and (max-width: 912px) {
+    /* padding-top: 80px; */
+    justify-content: flex-start;
+    height: 100%;
+    a {
+      .img_1 {
+        max-width: 70px;
+      }
+      img {
+        max-width: 90px;
+      }
+
+      div {
+        img {
+          max-width: 90px;
+        }
+      }
+    }
+
+    .middle {
+      a:nth-child(1) {
+        transform: translate(6px, -96px);
+      }
+      a:nth-child(3) {
+        transform: translate(-15px, -125px);
+      }
+
+      /* .connect-wallet-img {
+        img {
+          max-width: 70px;
+        }
+      } */
+    }
+
+    .end {
+      gap: 0px;
+      a:nth-child(1) {
+        transform: translate(-60px, -67px);
+      }
+      a:nth-child(3) {
+        transform: translate(31px, -63px);
+      }
+    }
+  }
+  @media screen and (max-width: 820px) {
+    /* padding-top: 80px; */
+    justify-content: flex-start;
+    height: 100vh;
+    a {
+      .img_1 {
+        max-width: 70px;
+      }
+      img {
+        max-width: 90px;
+      }
+
+      div {
+        img {
+          max-width: 90px;
+        }
+      }
+    }
+
+    .middle {
+      a:nth-child(1) {
+        transform: translate(6px, -96px);
+      }
+      a:nth-child(3) {
+        transform: translate(-15px, -125px);
+      }
+
+      /* .connect-wallet-img {
+        img {
+          max-width: 70px;
+        }
+      } */
+    }
+
+    .end {
+      gap: 0px;
+      a:nth-child(1) {
+        transform: translate(-60px, -67px);
+      }
+      a:nth-child(3) {
+        transform: translate(31px, -63px);
+      }
+    }
   }
 
   @media screen and (max-width: 620px) {

@@ -2,7 +2,7 @@ import React from "react";
 import { ContainerSidebar } from "./LeftSidebarStyle";
 import MenuIcon from "../../../assets/images/mobile-view/humburger/menu.svg";
 import CloseMenuIcon from "../../../assets/images/mobile-view/humburger/close-menu.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Footer from "../../Footer/Footer";
 
 import {
@@ -40,7 +40,6 @@ const SidebarItems2 = (props) => {
   return (
     <div className="sidebar__item">
       <div className={`sidebar__item-inner ${active}`}>
-        {/* <img src={props.icon} alt="images" /> */}
         <span>{props.title}</span>
       </div>
     </div>

@@ -71,8 +71,8 @@ const ContainerWrapper = styled("div")`
   }
 `;
 
-const Dashboard = (props) => {
-  const { isDesktop } = useBreakpoint();
+const Dashboard = () => {
+  const { isDesktop, isTablet } = useBreakpoint();
 
   const result = window.location.pathname;
   useEffect(() => {}, [result]);
@@ -91,11 +91,9 @@ const Dashboard = (props) => {
                 <Sidebar />
               </div>
             )}
-            <div className="main">
-              <div id="detail">
-                <Outlet />
-                <ToastContainer />
-              </div>
+            <div className="main" id="detail">
+              <Outlet />
+              <ToastContainer />
             </div>
           </div>
         </div>

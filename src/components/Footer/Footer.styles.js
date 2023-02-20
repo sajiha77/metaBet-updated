@@ -134,9 +134,9 @@ export const Container = styled.div`
     height: 2px;
     background: #969696;
     opacity: 0.2;
-    max-width: 305px;
-    margin: 0 auto;
+    max-width: 320px;
     border: none;
+    margin-left: 20px;
   }
 
   hr {
@@ -164,21 +164,20 @@ export const Container = styled.div`
   @media screen and (max-width: 1080px) {
     width: 100%;
     max-width: initial;
-    padding-left: 20px;
 
-    .bottom-hr {
+    /* .bottom-hr {
       max-width: 1000px;
-    }
+    } */
     .list--item-1 {
       justify-content: space-around;
-      padding: 0px;
+      padding: 35px 0px 0px 0px;
+      gap: 77px;
     }
     .list--item-2 > ul {
       /* justify-content: space-around;
       padding: 0px; */
-      gap: 5px;
+      /* gap: 5px; */
     }
-
     .list--item-1 > ul > li > a {
       font-size: 18px;
     }
@@ -192,7 +191,6 @@ export const Container = styled.div`
     .wrapper-btn {
       padding: 10px 20px;
     }
-
     .terms > ul > li > a {
       font-size: 14px;
       padding: 0px;
@@ -201,15 +199,19 @@ export const Container = styled.div`
       padding-bottom: 30px;
     }
   }
-
+  @media screen and (max-width: 820px) {
+    /* .bottom-hr {
+      max-width: 295px;
+    } */
+  }
   @media screen and (max-width: 768px) {
     width: 100%;
     max-width: initial;
     padding: 0px;
 
-    .bottom-hr {
+    /* .bottom-hr {
       max-width: 1000px;
-    }
+    } */
     .list--item-1 {
       justify-content: space-between;
       padding: 0px;

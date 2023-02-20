@@ -112,7 +112,7 @@ const PoliticsDetails = () => {
           })}
         </StatContainer>
         <Info>
-          {/* {state[0]?.bet.map((item) => (
+          {state[0]?.bet.map((item) => (
             <>
               {console.log(item.id)}
               <div className="WIN" key={item.id}>
@@ -132,7 +132,7 @@ const PoliticsDetails = () => {
                 </button>
               </div>
             </>
-          ))} */}
+          ))}
         </Info>
         <Tabs
           getId={id}

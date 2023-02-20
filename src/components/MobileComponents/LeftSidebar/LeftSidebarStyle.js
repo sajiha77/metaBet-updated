@@ -219,10 +219,6 @@ export const ContainerSidebar = styled("div")`
       width: 100%;
       height: 1400px;
     }
-    .OpenNavBar {
-      cursor: pointer;
-      transform: translate(-22px, 5px);
-    }
 
     .activated {
       height: 1400px;
@@ -233,6 +229,9 @@ export const ContainerSidebar = styled("div")`
       .close-img {
         transform: translate(-16px, 0px);
       }
+    }
+    .OpenNavBar {
+      display: none;
     }
   }
 
@@ -269,6 +268,9 @@ export const ContainerSidebar = styled("div")`
       .close-img {
         transform: translate(-16px, 0px);
       }
+    }
+    .OpenNavBar {
+      display: block;
     }
   }
 
@@ -412,6 +414,7 @@ export const ContainerSidebar = styled("div")`
       font-size: 14px;
     }
     .sidenav {
+      top: 80px;
       .closebtn {
         img {
           width: 40px;
