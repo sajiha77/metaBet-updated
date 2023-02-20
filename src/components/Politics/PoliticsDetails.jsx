@@ -15,8 +15,8 @@ const PoliticsDetails = () => {
   }, []);
 
   const { state } = useLocation();
-  // const [preview] = useState(state[0].review_video);
-  // const [prediction] = useState(state[0].prediction_video);
+  const [preview] = useState(state[0].review_video);
+  const [prediction] = useState(state[0].prediction_video);
   const { isDesktop } = useBreakpoint();
 
   console.log("first", state);
@@ -59,20 +59,20 @@ const PoliticsDetails = () => {
         <StatContainer>
           <div className="rectangle">
             <span>Statistic:</span>
-            {/* {state?.map((item) => (
+            {state?.map((item) => (
               <>
                 <span>{item.stats_title1}</span>
                 <span>{item.stats_title2}</span>
                 <span>{item.stats_title3}</span>
                 <span>{item.stats_title4}</span>
               </>
-            ))} */}
+            ))}
           </div>
           <div className="vs">
             <div id="live">
               <span>POOL LIVE</span>
             </div>
-            {/* {state[0]?.title && <span>{state[0]?.title}</span>} */}
+            {state[0]?.title && <span>{state[0]?.title}</span>}
             <div className="close">
               <div className="outcome">
                 <div className="clock">
@@ -92,14 +92,14 @@ const PoliticsDetails = () => {
                   </div>
                 </div>
                 <span>
-                  {/* {state[0]?.Date} */}
+                  {state[0]?.Date}
                   <br />
                   00:00 GMT
                 </span>
               </div>
             </div>
           </div>
-          {/* {state?.map((item) => {
+          {state?.map((item) => {
             return (
               <div className="portfolio">
                 <img
@@ -109,7 +109,7 @@ const PoliticsDetails = () => {
                 />
               </div>
             );
-          })} */}
+          })}
         </StatContainer>
         <Info>
           {/* {state[0]?.bet.map((item) => (
@@ -137,8 +137,8 @@ const PoliticsDetails = () => {
         <Tabs
           getId={id}
           winId={addStyle}
-          // getReview={preview}
-          // getPrediction={prediction}
+          getReview={preview}
+          getPrediction={prediction}
         />
         {/* </InnerContainer> */}
       </PoliticsContainer>

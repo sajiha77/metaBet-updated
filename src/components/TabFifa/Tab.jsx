@@ -40,8 +40,8 @@ function Tabs(props) {
 
   const [index, setIndex] = useState(0);
   // console.log(props.getPrediction);
-  // const prediction_src_1 = props.getPrediction;
-  // const review_src_1 = props.getReview;
+  const prediction_src_1 = props.getPrediction;
+  const review_src_1 = props.getReview;
   const prediction_3 = "https://youtu.be/1ObdFaUL7nc";
   const review_3 = "https://youtu.be/1ObdFaUL7nc";
 
@@ -118,14 +118,14 @@ function Tabs(props) {
               <div className="prediction">
                 <span>Prediction</span>
                 <div className="video-container-separeted">
-                  {/* <ReactPlayer url={prediction_src_1} /> */}
+                  <ReactPlayer url={prediction_src_1} />
                 </div>
               </div>
             )}
             <div className="prediction">
               <span>Review</span>
               <div className="video-container-separeted">
-                {/* <ReactPlayer url={review_src_1} /> */}
+                <ReactPlayer url={review_src_1} />
               </div>
             </div>
           </div>
