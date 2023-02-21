@@ -40,7 +40,6 @@ export const TabContainer = styled("div")`
     width: 100%;
     padding: 18px 10px;
     max-width: 851px;
-    /* min-height: 200px; */
     margin: 50px auto;
 
     div:nth-child(1) {
@@ -56,7 +55,6 @@ export const TabContainer = styled("div")`
     width: 100%;
     padding: 18px 10px;
     max-width: 451px;
-    /* min-height: 200px; */
     margin: 50px auto;
     margin-top: 20px;
 

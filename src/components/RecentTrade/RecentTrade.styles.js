@@ -52,7 +52,6 @@ export const TradeTable = styled.div`
           display: flex;
           gap: 10px;
           padding-left: 10px;
-          /* align-self: end; */
         }
         #scan-icon {
           transform: translateX(20px);
@@ -85,7 +84,6 @@ export const TradeTable = styled.div`
   }
 
   .Head {
-    /* background: #0a1a25; */
     border-radius: 10px;
     height: 51px;
     display: flex;
@@ -97,7 +95,6 @@ export const TradeTable = styled.div`
   .Content {
     display: flex;
     justify-content: flex-start;
-    /* grid-gap: 177px; */
 
     .Name {
       display: flex;
@@ -202,13 +199,10 @@ export const TradeTable = styled.div`
     border: none;
     cursor: pointer;
   }
-  /* #btn {
-    background: #fc4c1e;
-  } */
+
   .Item {
     display: flex;
     align-items: center;
-    /* grid-gap: 60px; */
   }
   .right-Item {
     display: flex;
@@ -245,7 +239,6 @@ export const TradeTable = styled.div`
       gap: 58px;
     }
     .Content {
-      /* grid-gap: 25px; */
       background: none;
       padding: 0;
       width: initial;
@@ -350,134 +343,4 @@ export const TradeTable = styled.div`
       }
     }
   }
-
-  /* @media screen and (max-width: 620px) {
-    max-width: 365px;
-    min-height: 170px;
-    p {
-      font-size: 5.712px;
-    }
-    .head {
-      height: 21px;
-      padding: 0px;
-      grid-gap: 95px;
-    }
-    .Head {
-      background: #0a1a25;
-      border-radius: 10px;
-      height: 51px;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 0 20px;
-      grid-gap: 75px;
-    }
-    .Content {
-      grid-gap: 25px;
-    }
-    .item {
-      grid-gap: 30px;
-      p {
-        font-size: 5.712px;
-      }
-    }
-    .Item1 {
-      grid-gap: 30px;
-      p {
-        font-size: 5.712px;
-      }
-    }
-
-    .right-item {
-      grid-gap: 26px;
-    }
-
-    .Pool,
-    .Time,
-    .Bet-Amount,
-    .Recipt,
-    .ODDS {
-      margin: 0px;
-      ul {
-        grid-gap: 10px;
-
-        li {
-          grid-gap: 5px;
-          font-size: 5.712px;
-        }
-      }
-      img {
-        width: 7.14px;
-        height: 7.14px;
-      }
-    }
-    .Event {
-      margin: 0px;
-      ul {
-        grid-gap: 10px;
-
-        li {
-          grid-gap: 5px;
-          font-size: 5.712px;
-        }
-      }
-
-      img {
-        width: 22.13px;
-        height: 7.5px;
-      }
-    }
-    .Recipt {
-      grid-gap: 10px;
-      margin-left: 30px;
-    }
-    .wallet {
-      margin: 0px;
-      ul {
-        grid-gap: 10px;
-
-        li {
-          grid-gap: 5px;
-          font-size: 5.712px;
-        }
-      }
-      img {
-        width: 7.14px;
-        height: 7.14px;
-      }
-    }
-
-    .Bet li {
-      display: flex;
-      flex-direction: column;
-      grid-gap: 24px;
-    }
-    .Bet button {
-      width: 150px;
-      height: 21px;
-      background: #7b7b7b;
-      border-radius: 6px;
-      color: #ffffff;
-      border: none;
-      cursor: pointer;
-    }
-
-    .Item {
-      grid-gap: 20px;
-      img {
-        width: 7.14px;
-        height: 7.14px;
-      }
-
-      p {
-        font-size: 5.712px;
-      }
-    }
-    .right-Item {
-      grid-gap: 20px;
-      span {
-        font-size: 5.712px;
-      }
-    }
-  } */
 `;

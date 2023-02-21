@@ -27,16 +27,8 @@ function Ethereum() {
   }, []);
   const { isDesktop } = useBreakpoint();
   const src = "https://www.youtube.com/watch?v=ncVKIMwd0bM";
-
-  // let ws = new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@trade");
-
-  // ws.onmessage = (e) => {
-  //   console.log("data", e.data);
-  // };
-
   const { fetchData, response } = useAxios();
   const result = response?.slice(1, 2).map((item) => item);
-  // console.log("result", result);
   console.log("response", response);
 
   const getBanners = async () => {

@@ -17,7 +17,6 @@ function BitcoinPrice() {
   const { isDesktop } = useBreakpoint();
   const { fetchData, response } = useAxios();
   const result = response?.slice(0, 1).map((item) => item);
-  // console.log("result", result);
   console.log("response", response);
 
   const getBanners = async () => {
@@ -33,9 +32,6 @@ function BitcoinPrice() {
       currency: "USD",
       maximumSignificantDigits,
     }).format(number);
-
-  // ? is used as a condition to get  Async function
-  // console.log("answer", result[0]?.total_volume);
 
   useEffect(() => {
     getBanners();

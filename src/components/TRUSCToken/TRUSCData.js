@@ -1,12 +1,8 @@
 import fox_1 from "../../assets/images/TRUSC/fox_1.webp";
-import fox_2 from "../../assets/images/TRUSC/fox_2.webp";
-import fox_3 from "../../assets/images/TRUSC/fox_3.webp";
-import fox_4 from "../../assets/images/TRUSC/fox_4.webp";
 import trusc from "../../assets/images/TRUSC/trusc.webp";
 import USDC from "../../assets/images/TRUSC/USDC.webp";
 import BNB from "../../assets/images/TRUSC/BNB.webp";
 import BUSD from "../../assets/images/TRUSC/BUSD.webp";
-import Tether from "../../assets/images/TRUSC/Tether.webp";
 import ETH from "../../assets/images/TRUSC/ETH.webp";
 
 export const Tdata = [

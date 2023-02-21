@@ -172,7 +172,6 @@ input:focus {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  /* padding: 0.5em 0.6em; */
 }
 
 .accordion-title:hover,
@@ -183,7 +182,6 @@ input:focus {
 .accordion-title.open::after {
   content: "";
   border-top: 0;
-  /* border-bottom: 5px solid; */
 }
 
 .accordion-content {
@@ -276,7 +274,6 @@ input[type="range"]::-moz-range-track {
 }
 
 input[type="range"]::-moz-range-thumb {
-  /* -webkit-appearance: none; */
   height: 24px;
   width: 24px;
   background-color: #fff;
@@ -296,7 +293,6 @@ input[type="range"]::-ms-track {
 }
 
 input[type="range"]::-ms-thumb {
-  /* -webkit-appearance: none; */
   height: 24px;
   width: 24px;
   background-color: #fff;

@@ -59,22 +59,6 @@ const Sidebar = () => {
               />
             </Link>
           ))}
-          <div className="currcency-wrapper">
-            {/* {third_array.map((item, index) => (
-                    <a
-                      href={item.route}
-                      key={index}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <SidebarItems
-                        alt_Title={item.display_alt_name}
-                        curr_img={item.img}
-                        imgMaxWidth={item.img_width}
-                      />
-                    </a>
-                  ))} */}
-          </div>
         </div>
         <hr />
         <div className="wrapper-span">

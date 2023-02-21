@@ -7,10 +7,6 @@ export const Container = styled.div`
   width: 340px;
   font-family: "CabinetGroteskBold";
 
-  /* img {
-    background-color: #0f212e;
-  } */
-
   .wrapper-link {
     display: flex;
     gap: 30px;

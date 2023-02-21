@@ -25,31 +25,7 @@ function Progressbar() {
   }
   const [progress, setProgress] = useState(0);
 
-  // const handleChange = (event) => {
-  //   setProgress(event.target.value);
-  // };
-  // const handleMouseDown = (event) => {
-  //   document.addEventListener("mousemove", handleMouseMove);
-  // };
-  // const handleMouseUp = (event) => {
-  //   document.removeEventListener("mousemove", handleMouseMove);
-  // };
-  // const handleMouseMove = (event) => {
-  //   setProgress(event.clientX);
-  // };
-
   return (
-    // <>
-    //   {" "}
-    //   <div className="progress-bar" style={{ width: `${progress}%` }} />
-    //   <div
-    //     className="handle"
-    //     style={{ left: `${progress}%` }}
-    //     onMouseDown={handleMouseDown}
-    //     onMouseUp={handleMouseUp}
-    //   />
-    // </>
-
     <div className="progress">
       <ProgressNavigation
         labelArray={labelArray}
@@ -58,26 +34,6 @@ function Progressbar() {
         updateStep={updateStep}
         updateStep1={updateStep1}
       ></ProgressNavigation>
-      {/* <span style={{ color: "#6E8799", paddingLeft: "35px" }}>
-        {currentStep}/20
-      </span> */}
-
-      {/* <p> </p> */}
-
-      {/* <button
-        className="primaryButton"
-        disabled={currentStep === 1}
-        onClick={() => updateStep(currentStep - 1)}
-      >
-        Previous Step
-      </button>
-      <button
-        className="primaryButton"
-        disabled={currentStep === labelArray.length}
-        onClick={() => updateStep(currentStep + 1)}
-      >
-        Next Step
-      </button> */}
     </div>
   );
 }

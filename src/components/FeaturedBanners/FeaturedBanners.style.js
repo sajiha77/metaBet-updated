@@ -9,13 +9,6 @@ export const FeaturedBannersContainer = styled("div")`
   max-width: ${(props) => props.pMWidth};
   min-height: ${(props) => props.pMHeight};
 
-  /* height: 38vh;
-  width: 70vh; */
-  /* 
-  background: #0f212e;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-  border-radius: 20px; */
-
   .featured-banner-wrapper {
     display: flex;
     align-items: center;
@@ -214,9 +207,6 @@ export const FeaturedBannersContainer = styled("div")`
     width: 100%;
     max-width: 300px;
 
-    .featured-banner-wrapper {
-      /* padding: 35px; */
-    }
     .politics-btn {
       width: 100%;
 

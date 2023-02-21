@@ -40,10 +40,6 @@ export const useAxios = () => {
     }
   };
 
-  // useEffect(() => {
-  //     fetchData(axiosParams);
-  // }, []); // execute once only
-
   return {
     response,
     error,

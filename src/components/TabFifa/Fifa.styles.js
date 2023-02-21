@@ -239,44 +239,9 @@ export const Info = styled.div`
   }
 `;
 
-// export const Tab = styled.div`
-//   max-width: 265px;
-//   min-height: 48px;
-//   background: #0f212e;
-//   border-radius: 100px;
-//   margin: 40px 0px 25px 10px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-around;
-
-//   .Odds {
-//     padding: 10px;
-//     background: #304553;
-//     border-radius: 100px;
-//   }
-//   p {
-//     font-weight: 700;
-//     font-size: 14px;
-//     color: #ffffff;
-//   }
-
-//   @media screen and (max-width: 620px) {
-//     .Odds {
-//       padding: 10px;
-//       background: #304553;
-//       border-radius: 100px;
-//     }
-//     p {
-//       font-weight: 700;
-//       font-size: 14px;
-//       color: #ffffff;
-//     }
-//   }
-// `;
 export const Table = styled.div`
   max-width: 956px;
   min-height: 200px;
-  /* background: #112533; */
   border-radius: 10px;
 
   .head {
@@ -370,14 +335,12 @@ export const Table = styled.div`
   }
   .Head {
     display: flex;
-    /* justify-content: space-between; */
     padding: 15px 10px;
     background: #112533;
   }
 
   .Head:nth-child(1) {
     padding: 25px 10px 15px;
-    /* border-radius: 8px; */
   }
 
   .Head:nth-child(5) {
@@ -388,8 +351,6 @@ export const Table = styled.div`
     display: flex;
     gap: 15px;
     width: 100%;
-    /* padding-left: 9px; */
-    /* max-width: 786px; */
 
     .currency_item {
       display: flex;
@@ -439,11 +400,6 @@ export const Table = styled.div`
   label:nth-child(5) {
     min-width: 130px;
   }
-
-  /* label:nth-child(3) {
-    max-width: 200px;
-    padding: 16px 9px;
-  } */
 
   .status {
     display: flex;
@@ -1255,7 +1211,6 @@ export const Interface = styled.div`
       width: 348.43px;
       height: 71.74px;
       border-radius: 3.57px;
-      /* padding: 10px 5px; */
       img {
         width: 100.67px;
         height: 60.32px;

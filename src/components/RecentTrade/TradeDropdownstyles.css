@@ -4,47 +4,6 @@
   font-family: "CabinetGroteskBold";
 }
 
-/* .dropdown .dropdownBtn {
-        width: 150px;
-        height: 21px;
-        background: #FC4C1E;
-        border-radius: 6px;
-        color: #ffffff;
-        border: none;  
-        font-size: 10px;
-        display: flex;
-        align-items: center; 
-        justify-content: center;
-} 
-
-.Amount {
-  display: flex;
-  align-items: center;
-  max-width: 253px;
-  min-height: 65px;
-  background: #0a1a25;
-  border-radius: 10px;
-  padding: 0px 10px;
-  grid-gap: 50px;
-}
-
-.Amount > .Status {
-  display: flex;
-  align-items: center;
-  grid-gap: 10px;
-}
-
-.Amount input {
-  font-size: 15px;
-  color: #ffffff;
-  width: 70px;
-  background: #0a1a25;
-  border: none;
-}
-
-/* .Amount>input textarea:focus {
-    outline: none;
-} */
 
 .Amount span {
   font-size: 13px;
@@ -197,7 +156,6 @@
   color: #ffffff;
   cursor: pointer;
   border: none;
-  /* width: 100%; */
   width: 125px;
   height: 36px;
   border-radius: 6px;

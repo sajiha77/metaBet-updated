@@ -20,25 +20,6 @@ import CricketGrey from "../../assets/images/Cricket.png";
 import UFCGrey from "../../assets/images/UFC.png";
 import trending from "../../assets/images/Politics.png";
 
-// export const Schedule = [
-//   {
-//     id: 1,
-//     date: "December 04 ,2022",
-//     time: "15:00 GMT",
-//     status: "LIVE",
-//     title1: "Senegal",
-//     title2: "England",
-//     draw: "Draw",
-//     icon: BUSD,
-//     bid: "BID:1",
-//     win: "Win: 1.45",
-//     score1: "2.45",
-//     score2: "4.00",
-//     score3: "1.50",
-//     flag1: senegal,
-//     flag2: england,
-//   },
-// ];
 export const betData = [
   {
     id: 1,

@@ -1,39 +1,20 @@
-import UFC from "../assets/images/UFC.png";
-import UFCW from "../assets/images/UFCW.webp";
-import MLB from "../assets/images/MLB.png";
-import NFL from "../assets/images/NFL.png";
 import PL from "../assets/images/PL.png";
-import ATP from "../assets/images/ATP.png";
-import Basketball from "../assets/images/Basketball.png";
-import basketballW from "../assets/images/basketballW.webp";
 import Boxing from "../assets/images/Boxing.png";
 import BoxingW from "../assets/images/BoxingW.webp";
 import Cricket from "../assets/images/Cricket.png";
 import CricketW from "../assets/images/CricketW.webp";
-import Volleyball from "../assets/images/Volleyball.png";
-import VolleyballW from "../assets/images/VolleyballW.webp";
-import Hockey from "../assets/images/Hockey.png";
-import HockeyW from "../assets/images/HockeyW.webp";
 import Politics from "../assets/images/Politics.png";
 import PoliticsW from "../assets/images/PoliticsW.webp";
 import Bitcoin from "../assets/images/Bitcoin.svg";
 import BitcoinW from "../assets/images/BitcoinW.webp";
 import DXY from "../assets/images/DXY.webp";
 import DXYW from "../assets/images/DXYW.webp";
-import Golf from "../assets/images/Golf.svg";
-import Snooker from "../assets/images/Snooker.svg";
-import Darts from "../assets/images/Darts.svg";
-import Horse from "../assets/images/Horse.svg";
 import FootballW from "../assets/images/FootballW.webp";
-import TennisW from "../assets/images/TennisW.webp";
-import BaseballW from "../assets/images/BaseballW.webp";
-import AmericanFootballW from "../assets/images/AmericanFootballW.webp";
 
 // currcency Logos //
 import currency_1 from "../assets/images/FeaturedEvent/bitmart.png";
 import currency_2 from "../assets/images/FeaturedEvent/Hotbit.webp";
 import currency_3 from "../assets/images/FeaturedEvent/pancake.webp";
-
 import Ethere from "../assets/images/FeaturedEvent/Ethereum.webp";
 import EthereW from "../assets/images/FeaturedEvent/white-Ethereum.webp";
 
@@ -46,10 +27,6 @@ import Icon_5 from "../assets/images/sidebar-social-icons/social_6.webp";
 import Icon_6 from "../assets/images/sidebar-social-icons/social_1.webp";
 
 export const first_array = [
-  // {
-  //   display_name: "",
-  //   route: "/",
-  // },
   {
     display_name: "How it works?",
     route: "/How-it-works",
@@ -70,14 +47,6 @@ export const first_array = [
     display_name: "TRUSC Token",
     route: "/TRUSC-Token",
   },
-  // {
-  //   display_name: "Buy Token",
-  //   route: "/Tokenomics",
-  // },
-  // {
-  //   display_name: "Recent Trades",
-  //   route: "/Recent-Trades",
-  // },
 ];
 export const sec_array = [
   {
@@ -110,54 +79,7 @@ export const sec_array = [
     icon: Cricket,
     white: CricketW,
   },
-  // {
-  //   display_name: "Tennis",
-  //   // route: "/Tennis",
-  //   icon: ATP,
-  //   white: TennisW,
-  // },
-  // {
-  //   display_name: "Basket Ball",
-  //   // route: "/Basket-Ball",
-  //   icon: Basketball,
-  //   white: basketballW,
-  // },
-  // {
-  //   display_name: "Boxing",
-  //   // route: "/Boxing",
-  //   icon: Boxing,
-  //   white: BoxingW,
-  // },
-  // {
-  //   display_name: "Football",
-  //   // route: "/Foot-ball",
-  //   icon: NFL,
-  //   white: AmericanFootballW,
-  // },
-  // {
-  //   display_name: "Cricket",
-  //   // route: "/Cricket",
-  //   icon: Cricket,
-  //   white: CricketW,
-  // },
-  // {
-  //   display_name: "Baseball",
-  //   // route: "/Baseball",
-  //   icon: MLB,
-  //   white: BaseballW,
-  // },
-  // {
-  //   display_name: "Volleyball",
-  //   // route: "/Volleyball",
-  //   icon: Volleyball,
-  //   white: VolleyballW,
-  // },
-  // {
-  //   display_name: "Hockey",
-  //   // route: "/Hockey",
-  //   icon: Hockey,
-  //   white: HockeyW,
-  // },
+
   {
     display_name: "UFC",
     route: "/UFC",
@@ -170,39 +92,9 @@ export const sec_array = [
     icon: Politics,
     white: PoliticsW,
   },
-
-  // {
-  //   display_name: "Golf",
-  //   // route: "/Golf",
-  //   icon: Golf,
-  // },
-  // {
-  //   display_name: "Snooker",
-  //   // route: "/Snooker",
-  //   icon: Snooker,
-  // },
-  // {
-  //   display_name: "Darts",
-  //   // route: "/Darts",
-  //   icon: Darts,
-  // },
-  // {
-  //   display_name: "Horse Racing",
-  //   // route: "/Horse-Racing",
-  //   icon: Horse,
-  // },
 ];
 
 export const third_array = [
-  // {
-  //   display_name: "Featured Event",
-  //   route: "/Featured-Event",
-  //   // icon: Bitcoin,
-  // },
-  // {
-  //   display_name: "LIVE Bet",
-  //   route: "/Live-Bet",
-  // },
   {
     display_alt_name: "Bitmart",
     img: currency_1,
@@ -223,10 +115,6 @@ export const third_array = [
       "https://pancakeswap.finance/swap?outputCurrency=0x438Fc473Ba340D0734E2D05acdf5BEE775D1B0A4&inputCurrency=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
     img_width: "45px",
   },
-  // {
-  //   display_name: "Recent Trades",
-  //   route: "/Recent-Trades",
-  // },
 ];
 
 export const fourth_array = [

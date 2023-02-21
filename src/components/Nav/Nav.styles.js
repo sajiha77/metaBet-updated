@@ -29,8 +29,7 @@ export const Container = styled.div`
     display: flex;
     padding: 0px 8px;
     width: 100%;
-    /* justify-content: flex-end;
-    gap: 130px; */
+
     #google_element {
       padding: 0px 10px;
     }
@@ -45,7 +44,6 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     gap: 10px;
-    /* transform: translateX(-140px); */
 
     div {
       display: flex;
@@ -58,7 +56,6 @@ export const Container = styled.div`
   }
   @media screen and (max-width: 1080px) {
     .dropdown-section {
-      /* flex-wrap: wrap; */
       gap: 10px;
     }
     .dropdown-ai {
@@ -66,7 +63,6 @@ export const Container = styled.div`
       gap: 50px;
     }
     .openai {
-      /* transform: translate(205px, 5px); */
       display: flex;
       img {
         height: 34px;
@@ -83,7 +79,6 @@ export const Container = styled.div`
 
   @media screen and (max-width: 1024px) {
     .dropdown-section {
-      /* flex-wrap: wrap; */
       gap: 10px;
     }
     .dropdown-ai {
@@ -91,7 +86,6 @@ export const Container = styled.div`
       gap: 50px;
     }
     .openai {
-      /* transform: translate(205px, 5px); */
       display: flex;
       img {
         height: 34px;
@@ -106,16 +100,11 @@ export const Container = styled.div`
     }
   }
   @media screen and (max-width: 920px) {
-    .dropdown-section {
-      /* flex-wrap: wrap; */
-      /* gap: 0px; */
-    }
     .dropdown-ai {
       justify-content: flex-end;
       gap: 50px;
     }
     .openai {
-      /* transform: translate(205px, 5px); */
       display: flex;
       img {
         height: 34px;
@@ -130,16 +119,11 @@ export const Container = styled.div`
     }
   }
   @media screen and (max-width: 820px) {
-    /* .dropdown-section {
-      flex-wrap: wrap;
-      gap: 0px;
-    } */
     .dropdown-ai {
       gap: 5px;
     }
     .openai {
       gap: 5px;
-      /* transform: translate(93px, 21px); */
       div {
         gap: 2px;
       }
@@ -156,10 +140,6 @@ export const Container = styled.div`
     .dropdown-ai {
       justify-content: center;
     }
-
-    .openai {
-      /* transform: translate(95px, 17px); */
-    }
   }
   @media screen and (max-width: 414px) {
     .dropdown-ai {
@@ -167,12 +147,7 @@ export const Container = styled.div`
     }
   }
   @media screen and (max-width: 375px) {
-    /* .background {
-      min-height: 82px;
-    } */
-
     .openai {
-      /* transform: translate(15px, 17px); */
       img {
         height: 22px;
         width: 22px;

@@ -18,8 +18,6 @@ const ContainerWrapper = styled("div")`
   .wrapper-main {
     display: flex;
     flex-direction: row;
-    /* gap: 5px; */
-    /* z-index: -1; */
   }
 
   header {
@@ -79,7 +77,6 @@ const Dashboard = () => {
 
   return (
     <>
-      {/* <ContainerWrapper bgColorVal={result == "/" ? "black" : "none"}> */}
       <ContainerWrapper>
         <div className="container">
           <header>

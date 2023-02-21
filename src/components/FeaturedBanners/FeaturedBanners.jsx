@@ -48,16 +48,6 @@ const FeaturedBanners = (props) => {
               </div>
             </div>
           )}
-          {/* {pathname === "/Truth-2-earn" ? (
-            <div className="vote">
-              <button className={`votebutton-${props.id}`}>
-                {props.vote_btn}
-                <img src={props.vote_up} alt="vote_up" />{" "}
-              </button>
-            </div>
-          ) : (
-            ""
-          )} */}
         </FeaturedBannersContainer>
       )}
     </>

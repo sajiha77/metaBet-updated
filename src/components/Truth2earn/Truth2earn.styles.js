@@ -138,7 +138,6 @@ export const Truth2earnContainer = styled.div`
     color: #ffffff;
     cursor: pointer;
     border: none;
-    /* width: 100%; */
     width: 125px;
     height: 36px;
     border-radius: 6px;
@@ -192,7 +191,6 @@ export const Truth2earnContainer = styled.div`
   }
   @media screen and (max-width: 912px) {
     grid-template-columns: 1fr;
-    /* padding: 0px 80px; */
     .get_accord {
       width: 100%;
       max-width: 300px;
@@ -222,11 +220,9 @@ export const Truth2earnContainer = styled.div`
   }
   @media screen and (max-width: 540px) {
     grid-template-columns: 1fr;
-    /* padding: 0px 110px; */
   }
   @media screen and (max-width: 412px) {
     grid-template-columns: 1fr;
-    /* padding-left: 35px; */
   }
   @media screen and (max-width: 375px) {
     grid-template-columns: 1fr;

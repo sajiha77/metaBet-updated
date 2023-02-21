@@ -1,6 +1,4 @@
 import React from "react";
-import { useState } from "react";
-
 import { Container, ContainerBet } from "./ActiveBet.styles";
 import fox from "../../assets/images/Betimg/fox.png";
 import { betData, Filter } from "./ActiveBetData";
@@ -42,7 +40,6 @@ const ActiveBetHistory = () => {
                         <span>{item.th_1}</span>
                         <span>{item.th_2}</span>
                       </div>
-                      {/* <hr /> */}
                       <div className="bet-td">
                         <span>{item.td_1}</span>
                         <span>{item.td_2}</span>

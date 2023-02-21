@@ -13,7 +13,6 @@ export const BetContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 60px; */
     gap: ${(props) => props.statsGap};
 
     .flag_wrapper {
@@ -40,7 +39,6 @@ export const BetContainer = styled.div`
       background: #112533;
       gap: ${(props) => props.textGap};
       padding: 35px 10px;
-      /* max-width: 160px; */
       max-width: ${(props) => props.statWidth};
 
       span:nth-child(1) {

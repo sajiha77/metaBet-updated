@@ -37,7 +37,6 @@ const PDFProtectContainer = styled("div")`
 
   form label {
     position: relative;
-    /* margin: 0 50px; */
   }
 
   form input[type="text"],

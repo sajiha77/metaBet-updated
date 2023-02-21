@@ -21,7 +21,6 @@ const WhitePaper = () => {
         className="pdf-container"
         style={{ height: "1780px", maxWidth: "1000px", margin: "0 auto" }}
       >
-        {/* show pdf conditionally (if we have one)  */}
         {defaultPdfFile && (
           <>
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.min.js">

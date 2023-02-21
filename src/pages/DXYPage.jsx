@@ -9,22 +9,6 @@ const DXYPage = () => {
   return (
     <>
       <DXYComponent />
-      {/* <DXYContainer>
-        {Dxy_data.map((item, index) => {
-          return (
-            <FeaturedBanners
-              id={item.id}
-              key={index}
-              data_name={item.data_name}
-              background_img={item.background_img}
-              route_path={item.route_path}
-              btn_name={item.btn_name}
-              innerData={item.innerData}
-            />
-          );
-        })}
-      </DXYContainer> */}
-      {/* {isDesktop && <AirdropFooterBanner />} */}
     </>
   );
 };

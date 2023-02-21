@@ -12,7 +12,6 @@ export const TRUSCTokenContainer = styled.div`
 
 export const Container1 = styled.div`
   width: 100%;
-  /* max-width: 900px; */
   margin: 20px 10px;
   display: flex;
   gap: 20px;

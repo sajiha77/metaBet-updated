@@ -21,9 +21,7 @@ const WorldcupLandingPage = () => {
   const metaMaskAddress = useSelector((state) => state.wallet);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    // console.log(metaMaskAddress, "tabs");
-  }, [metaMaskAddress]);
+  useEffect(() => {}, [metaMaskAddress]);
 
   return (
     <Container>

@@ -55,7 +55,6 @@ const PoliticsDetails = () => {
   return (
     <>
       <PoliticsContainer displayType="flex" displayDirection="column">
-        {/* <InnerContainer> */}
         <StatContainer>
           <div className="rectangle">
             <span>Statistic:</span>
@@ -140,10 +139,8 @@ const PoliticsDetails = () => {
           getReview={preview}
           getPrediction={prediction}
         />
-        {/* </InnerContainer> */}
       </PoliticsContainer>
       <Carousel />
-      {/* {isDesktop && <AirdropFooterBanner />} */}
     </>
   );
 };

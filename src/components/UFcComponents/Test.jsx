@@ -25,7 +25,6 @@ const Test = () => {
     window.scrollTo(0, 0);
   }, [group, title]);
 
-  // console.log("UFCr", response?.highlight);
   return (
     <>
       <HightLightsComponent hightLightData={response?.highlight} />

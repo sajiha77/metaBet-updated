@@ -26,20 +26,16 @@ function Tabs(props) {
   console.log("bitcoin tabs", props?.bitcoinBet);
 
   useEffect(() => {
-    // console.log(metaMaskAddress, "tabs");
     if (ethereum) {
       const provider = new ethers.providers.Web3Provider(ethereum);
       const signer = provider.getSigner();
       signer.getAddress().then(function (data) {
         setCurrentAccount(data);
       });
-
-      // console.log("tabs", currentAccount);
     }
   }, [metaMaskAddress]);
 
   const [index, setIndex] = useState(0);
-  // console.log(props.getPrediction);
   const prediction_src_1 = props.getPrediction;
   const review_src_1 = props.getReview;
   const prediction_3 = "https://youtu.be/1ObdFaUL7nc";
@@ -193,7 +189,6 @@ function Tabs(props) {
         <RecentTrade id={props.getId} />
       </div>
       <div className="tableContent" hidden={index !== 2}>
-        {/* LiveBet NFT This Page is not live yet */}
         <h1>Coming Soon</h1>
       </div>
     </TabContainer>

@@ -30,12 +30,6 @@ export const PoliticsContainer = styled.div`
     filter: drop-shadow(0px 2.404px 2.404px rgba(0, 0, 0, 0.25));
   }
 
-  /* video {
-    .prediction {
-      max-width: 400px;
-    }
-  } */
-
   @media screen and (max-width: 1080px) {
     max-width: 950px;
     margin: 0 auto;
@@ -201,31 +195,6 @@ export const PoliticsContainer = styled.div`
   }
 `;
 
-// export const InnerContainer = styled.div`
-//   margin-top: 8px;
-//   width: 100%;
-//   min-height: 260px;
-//   display: flex !important;
-//   flex-direction: column;
-//   margin-bottom: 120px;
-//   grid-template-columns: none;
-
-//   .hide {
-//     display: none;
-//   }
-
-//   .pie {
-//     display: flex;
-//     justify-content: center;
-//     background: #223542;
-//     border-radius: 8px;
-//     width: 100%;
-//     max-width: 760px;
-//     height: 500px;
-//     margin: 50px auto;
-//     filter: drop-shadow(0px 2.404px 2.404px rgba(0, 0, 0, 0.25));
-//   }
-// `;
 export const StatContainer = styled.div`
   display: flex;
   justify-content: space-around;
@@ -335,15 +304,8 @@ export const StatContainer = styled.div`
       display: flex;
       width: 100%;
       justify-content: flex-end;
-      /* align-items: center; */
       padding: 5px;
       gap: 105px;
-
-      /* p:nth-child(1) {
-        color: #fff;
-        font-size: 16px;
-        text-align: center;
-      } */
 
       span {
         font-weight: 800;
@@ -352,24 +314,6 @@ export const StatContainer = styled.div`
         text-align: right;
       }
     }
-
-    /* .time {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-size: 12px;
-      color: #ffffff;
-
-      span:nth-child(1) {
-        font-size: 12px;
-      }
-
-      span {
-        font-size: 16px;
-        color: #ffd600;
-      }
-    } */
   }
   .rectangle {
     width: 100%;

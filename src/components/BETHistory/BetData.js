@@ -122,30 +122,6 @@ export const betData = [
     th_5: "Chain Link",
     icon_2: ChainLink,
   },
-  // {
-  //   id: 2,
-  //   icon1: BNB,
-  //   title: "Total Bets",
-  //   block_chain: "BNB",
-  //   total_bets: "0",
-  //   value_bets: "$0",
-  //   value_return: "$0",
-  //   icon_2: ChainLink,
-  // },
-  // {
-  //   id: 3,
-  //   icon1: GOAL,
-  //   title: "Value Bets",
-  //   block_chain: "GOAL",
-  //   total_bets: "0",
-  //   value_bets: "$0",
-  //   value_return: "$0",
-  //   icon_2: ChainLink,
-  // },
-  // {
-  //   id: 4,
-  //   title: "Value Return",
-  // },
 ];
 
 export const schedule = [

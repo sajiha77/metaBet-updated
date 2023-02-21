@@ -41,7 +41,6 @@ export const Container = styled.div`
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    /* max-width: 582px; */
 
     span {
       font-weight: 800;
@@ -51,7 +50,6 @@ export const Container = styled.div`
 
     .item-btn {
       display: flex;
-      /* flex-direction: column; */
       max-width: 300px;
     }
   }
@@ -102,18 +100,11 @@ export const Container = styled.div`
 
     .event {
       img {
-        /* max-width: 450px; */
         width: 100%;
       }
 
       span {
         font-size: 12px;
-      }
-
-      .wager {
-        /* span {
-          max-width: 240px;
-        } */
       }
     }
 
@@ -140,18 +131,11 @@ export const Container = styled.div`
 
     .event {
       img {
-        /* max-width: 450px; */
         width: 100%;
       }
 
       span {
         font-size: 12px;
-      }
-
-      .wager {
-        /* span {
-          max-width: 240px;
-        } */
       }
     }
 
@@ -178,18 +162,11 @@ export const Container = styled.div`
 
     .event {
       img {
-        /* max-width: 450px; */
         width: 100%;
       }
 
       span {
         font-size: 12px;
-      }
-
-      .wager {
-        /* span {
-          max-width: 240px;
-        } */
       }
     }
 
@@ -220,18 +197,11 @@ export const Container = styled.div`
 
     .event {
       img {
-        /* max-width: 450px; */
         width: 100%;
       }
 
       span {
         font-size: 12px;
-      }
-
-      .wager {
-        /* span {
-          max-width: 240px;
-        } */
       }
     }
 

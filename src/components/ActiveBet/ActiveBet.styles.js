@@ -24,7 +24,7 @@ export const Container = styled.div`
     }
   }
   .history_span {
-    padding: 20px 35px; /* margin-left: 10px; */
+    padding: 20px 35px;
     span {
       font-weight: 800;
       font-size: 16px;
@@ -164,13 +164,9 @@ export const Container = styled.div`
 export const ContainerBet = styled.div`
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
   padding: 24px;
   gap: 30px;
   margin-left: 10px;
-  /* background: #081824; */
-  /* border-radius: 10px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 
   .betHistory-container {
     display: flex;
@@ -200,7 +196,6 @@ export const ContainerBet = styled.div`
       background: #081824;
       border-radius: 10px;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-      /* max-width: 551px; */
       .right-pannel {
         display: flex;
         align-items: center;
@@ -219,7 +214,6 @@ export const ContainerBet = styled.div`
           font-size: 12px;
           color: #fff;
           cursor: pointer;
-          /* width: 100%; */
           max-width: 47px;
           min-height: 33px;
           padding: 10px;
@@ -230,7 +224,6 @@ export const ContainerBet = styled.div`
         display: flex;
         flex-direction: column;
         gap: 20px;
-        /* width: 100%; */
 
         .bet-th {
           display: flex;
@@ -238,10 +231,6 @@ export const ContainerBet = styled.div`
           font-weight: 700;
           font-size: 12px;
           color: #f4cd68;
-
-          span {
-            /* width: 100%; */
-          }
         }
 
         .bet-td {
@@ -251,10 +240,6 @@ export const ContainerBet = styled.div`
           font-weight: 700;
           font-size: 14px;
           color: #fff;
-
-          span {
-            /* width: 100%; */
-          }
         }
 
         .bet-td1 {
@@ -263,10 +248,6 @@ export const ContainerBet = styled.div`
           font-weight: 700;
           font-size: 14px;
           color: #fff;
-
-          span {
-            /* width: 100%; */
-          }
         }
       }
     }
@@ -352,14 +333,6 @@ export const ContainerBet = styled.div`
       }
     }
   }
-
-  /* @media screen and (max-width: 1024px) {
-    .betHistory-container {
-      hr {
-        max-width: 872px;
-      }
-    }
-  } */
 
   @media screen and (max-width: 920px) {
     .betHistory-container {

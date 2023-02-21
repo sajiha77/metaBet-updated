@@ -17,17 +17,6 @@ const TradeAccordian = (props) => {
       setAllBets(Array(data));
     });
   }, []);
-
-  // console.log(bets[0].timestamp._hex);
-
-  // let unixTimestamp = bets[0].timestamp._hex;
-  // unixTimestamp = Date.now();
-  // let dataObj = new Date(unixTimestamp * 1000);
-  // let utcString = dataObj.toUTCString();
-  // let time = utcString.slice(-11, -4);
-
-  //const amount = Number(bets.map((item) => item[0][3])) / 1e18;
-
   const RecentTradeData = [
     {
       id: 1,
@@ -40,26 +29,6 @@ const TradeAccordian = (props) => {
       backgroundColor: "#223743",
       border: "8px",
     },
-    // {
-    //   id: bets[0].eventId.slice(0, 10),
-    //   userID: bets[0].user.slice(0, 10),
-    //   time: time,
-    //   odds: "1.45",
-    //   betAmount: "0.0000",
-    //   icon3: GOAL,
-    //   icon4: "https://bscscan.com/images/brandassets/BscScan-logo-circle.png",
-    // },
-    // {
-    //   id: bets[0].eventId.slice(0, 10),
-    //   userID: bets[0].user.slice(0, 10),
-    //   time: time,
-    //   odds: "2.00",
-    //   betAmount: "0.0000",
-    //   icon3: BUSD,
-    //   icon4: "https://bscscan.com/images/brandassets/BscScan-logo-circle.png",
-    //   backgroundColor: "#223743",
-    //   border: "8px",
-    // },
   ];
 
   return (

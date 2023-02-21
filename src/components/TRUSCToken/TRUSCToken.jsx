@@ -1,6 +1,5 @@
 import React from "react";
 import { TRUSCTokenContainer, Container1, Balance } from "./TRUSCToken.styles";
-import { Tdata } from "./TRUSCData";
 import Trueai from "../../assets/images/TRUSC/Trueai.webp";
 import trusc from "../../assets/images/TRUSC/trusc.webp";
 import TransferBtn from "../../assets/images/TRUSC/Transfer-btn.webp";

@@ -5,7 +5,6 @@ const walletConnect = async (accountFromExt) => {
     let account;
     if (accountFromExt?.length) {
       account = accountFromExt[0];
-      // account && toast.success("Connected to metamask", { theme: "colored" });
       return account;
     } else {
       const accounts = await window.ethereum.request({
@@ -22,17 +21,9 @@ const walletConnect = async (accountFromExt) => {
           method: "eth_requestAccounts",
           params: [account, "latest"],
         });
-        // Requesting balance method
-
-        // .then((balance) => {
-        //   // Setting balance
-        //   let Balance = ethers.utils.formatEther(balance);
-        //   return Balance;
-        // });
 
         console.log(getAddress, "getAddress dropdown");
         Utils.Airdrop(account);
-        // account && toast.success("Connected to metamask", { theme: "colored" });
         return getAddress;
       }
     }

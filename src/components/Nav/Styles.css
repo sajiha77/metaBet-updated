@@ -79,9 +79,6 @@
   display: flex;
   padding: 0px 8px;
   width: 100%;
-  /* justify-content: flex-end;
-  gap: 130px; */
-
 }
 
 #google_element {
@@ -178,7 +175,6 @@
 
 @media screen and (max-width: 1080px) {
   .dropdown {
-    /* transform: translate(90px, 5px); */
     gap: 12px;
   }
 
@@ -186,14 +182,11 @@
     width: 100px;
   }
 
-  /* .dropdown .dropdownBtn button {
-    padding: 0;
-  } */
+
 }
 
 @media screen and (max-width: 1024px) {
   .dropdown {
-    /* transform: translate(90px, 5px); */
     gap: 12px;
   }
 
@@ -217,16 +210,13 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
-    /* transform: translate(2px, 1px); */
     gap: 1px;
     padding-right: 85px;
   }
 
   .dropdown .dropdownBtn .connect-btn {
     padding: 5px 0px 0px 0px;
-    /* width: 113px; */
-    /* border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px; */
+
   }
 
   .dropdown .dropdownBtn .connect-btn img {
@@ -273,7 +263,6 @@
 
   .right-nav>label {
     padding: 0px 5px;
-    /* transform: translateX(18px); */
   }
 
   .right-nav>label>input::placeholder {
@@ -287,23 +276,16 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    /* transform: translate(2px, 1px); */
     gap: 1px;
     padding: 0px;
   }
 
   .dropdown .dropdownBtn .connect-btn {
     padding: 5px 0px 0px 0px;
-    /* width: 113px; */
-    /* border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px; */
+
   }
 
-  /* .dropdown .dropdownBtn .connect-btn img {
-    width: 113px;
-    height: 30px;
 
-  } */
 
   .dropdown .dropdownBtn .Nav-Btn {
     padding: 0px 5px;
@@ -336,7 +318,6 @@
 
   .right-nav>label {
     padding: 0px 5px;
-    /* transform: translateX(18px); */
   }
 
   .right-nav>label>input::placeholder {
@@ -383,22 +364,16 @@
 
   .right-nav>label {
     padding: 5px 2px;
-    /* transform: translateX(18px); */
   }
 
   .right-nav>label>input::placeholder {
     font-size: 11px;
   }
 
-  /* .dropdown .dropdownBtn .connect-btn img {
-    width: 69px;
-    height: 24px;
 
-  } */
 
   .dropdown .dropdownBtn .connect-btn {
     padding: 5px 0px 0px 0px;
-    /* width: 113px; */
     border-radius: 0px 3.69231px 3.69231px 0px;
   }
 
@@ -438,9 +413,3 @@
   }
 
 }
-
-/* @media screen and (max-width: 360px) {
-  .dropdown {
-    align-items: end;
-  }
-} */

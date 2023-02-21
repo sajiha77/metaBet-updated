@@ -2,11 +2,9 @@ import styled from "styled-components";
 export const ContainerBet = styled.div`
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
   padding: 24px;
   gap: 30px;
   margin-top: 20px;
-  /* min-width: 940px; */
   background: #081824;
   border-radius: 10px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -33,7 +31,6 @@ export const ContainerBet = styled.div`
       align-items: center;
       gap: 30px;
       width: 100%;
-      /* max-width: 551px; */
 
       .table-wrapper {
         display: flex;

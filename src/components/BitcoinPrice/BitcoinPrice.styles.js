@@ -273,30 +273,9 @@ export const StatContainer = styled.div`
         text-align: right;
       }
     }
-
-    /* .time {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-size: 12px;
-      color: #ffffff;
-
-      span:nth-child(1) {
-        font-size: 12px;
-      }
-
-      span {
-        font-size: 16px;
-        color: #ffd600;
-      }
-    } */
   }
   .rectangle {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* gap: 35px; */
     padding: 5px;
     max-width: 355px;
     margin: 0 auto;
@@ -311,20 +290,7 @@ export const StatContainer = styled.div`
       display: flex;
       flex-direction: column;
       gap: 10px;
-
-      /* .text-success {
-        color: #28a745 !important;
-      }
-
-      .text-danger {
-        color: #dc3545 !important;
-      } */
     }
-    /* span:nth-child(1) {
-      font-weight: 700;
-      font-size: 18px;
-      color: #ffffff;
-    } */
 
     span {
       display: flex;

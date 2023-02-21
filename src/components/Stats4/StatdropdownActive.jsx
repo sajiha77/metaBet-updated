@@ -201,24 +201,6 @@ function Dropdown({ id, token, img, amount, pool, odd, size, win, betWinId }) {
           </button>
         )}
       </div>
-      {/* {!metaMaskAddress.metaMaskAddress ? (
-        <button
-          className="bet-btn"
-          id="btn"
-          onClick={() => dispatch(metaMaskConnection())}
-        >
-          Connect Wallet
-        </button>
-      ) : (
-        <button
-          className="bet-btn"
-          id="btn"
-          style={{ background: "#fc4c1e" }}
-          onClick={() => BetNow(id, token, enterAmount, betWinId)}
-        >
-          Event Ended
-        </button>
-      )} */}
     </>
   );
 }

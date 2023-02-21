@@ -29,7 +29,6 @@ const Polities = () => {
           );
         })}
       </PoliticsContainer>
-      {/* {isDesktop && <AirdropFooterBanner />} */}
     </>
   );
 };

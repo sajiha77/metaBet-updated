@@ -53,12 +53,10 @@ export const Container = styled.div`
 
   @media screen and (max-width: 1080px) {
     height: 100%;
-    /* justify-content: center; */
   }
 
   @media screen and (max-width: 1024px) {
     height: 100%;
-    /* justify-content: center; */
     .img_free_bets {
       max-width: 630px;
     }
@@ -67,7 +65,6 @@ export const Container = styled.div`
     }
   }
   @media screen and (max-width: 912px) {
-    /* padding-top: 80px; */
     justify-content: flex-start;
     height: 100%;
     a {
@@ -92,12 +89,6 @@ export const Container = styled.div`
       a:nth-child(3) {
         transform: translate(-15px, -125px);
       }
-
-      /* .connect-wallet-img {
-        img {
-          max-width: 70px;
-        }
-      } */
     }
 
     .end {
@@ -111,7 +102,6 @@ export const Container = styled.div`
     }
   }
   @media screen and (max-width: 820px) {
-    /* padding-top: 80px; */
     justify-content: flex-start;
     height: 100vh;
     a {
@@ -136,12 +126,6 @@ export const Container = styled.div`
       a:nth-child(3) {
         transform: translate(-15px, -125px);
       }
-
-      /* .connect-wallet-img {
-        img {
-          max-width: 70px;
-        }
-      } */
     }
 
     .end {
@@ -156,7 +140,6 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 620px) {
-    /* padding-top: 80px; */
     justify-content: flex-start;
     height: 100vh;
     a {
@@ -181,12 +164,6 @@ export const Container = styled.div`
       a:nth-child(3) {
         transform: translate(-15px, -125px);
       }
-
-      /* .connect-wallet-img {
-        img {
-          max-width: 70px;
-        }
-      } */
     }
 
     .end {

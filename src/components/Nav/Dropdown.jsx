@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Styles.css";
 import Component from "../../assets/images/BNB.svg";
-import FoxImg from "../../assets/images/fox.png";
 import foxCircle from "../../assets/images/foxCircle.webp";
 import foxMini from "../../assets/images/fox-mini.webp";
 import Connect from "../../assets/images/Connect_btn.png";
@@ -15,13 +14,10 @@ import {
   metaMaskDisconnect,
 } from "../../redux/walletConnect/walletConnectSlice";
 
-import WalletImg from "../../assets/images/mobile-version.png";
 import useBreakpoint from "../../hooks/useBreakpoints";
 import truncateEthAddress from "truncate-eth-address";
-import { ethers } from "ethers";
 
 function Dropdown() {
-  // const [selected, setSelected] = useState();
   const [Active, setIsActive] = useState(false);
   const metaMaskAddress = useSelector((state) => state.wallet);
   const dispatch = useDispatch();
@@ -37,50 +33,10 @@ function Dropdown() {
       ? "0.0000"
       : truncateEthAddress(metaMaskAddress.metaMaskAddress.toString());
 
-  // FOR GETTTING BALANCE  <----
-
-  // const getbalance = (address) => {
-  //   // Requesting balance method
-  //   window.ethereum
-  //     .request({
-  //       method: "eth_getBalance",
-  //       params: [address, "latest"],
-  //     })
-  //     .then((balance) => {
-  //       // Setting balance
-  //       console.log({
-  //         Balance: ethers.utils.formatEther(balance),
-  //       });
-  //     });
-  // };
-
-  // getbalance(Address);
-
-  // const options = [
-  //   { name: count?.wallet?.address, img: Component, text: "ETH" },
-  //   { name: "5.98200000", img: WETH, text: "WETH" },
-  //   { name: "243.00043215", img: USDT, text: "USDT" },
-  //   { name: "0.00000000", img: BUSD, text: "BUSD" },
-  //   { name: "0.00000000", img: BNB, text: "BNB" },
-  //   { name: "0.00000000", img: ETC, text: "ETC" },
-  //   { name: "0.00000000", img: MATIC, text: "MATIC" },
-  //   { name: "1000.46700000", img: GOAL, text: "GOAL" },
-  // ];
-  // // options.map((item) => console.log(item));
-
   useEffect(() => {
     // console.log(metaMaskAddress, "metaMaskAddress");
   }, [metaMaskAddress]);
-  // useEffect(() => {
-  //   if (window.ethereum) {
-  //     // const network = window?.ethereum?.selectedAddress;
-  //     // if (network?.length > 0) {
-  //     window.ethereum.on("accountsChanged", (accounts) => {
-  //       if (accounts?.length) dispatch(metaMaskConnection(accounts));
-  //       else dispatch(metaMaskDisconnect());
-  //     });
-  //   }
-  // });
+
   return (
     <>
       <div className="dropdown">
@@ -140,7 +96,6 @@ function Dropdown() {
               className="connect-btn"
               onClick={() => dispatch(metaMaskConnection())}
             >
-              {/* {isDesktop && "Connect"} */}
               {isTablet || isDesktop ? (
                 <img src={Connect} alt="Wallet-image" />
               ) : (
@@ -152,7 +107,6 @@ function Dropdown() {
               className="connect-btn"
               onClick={() => dispatch(metaMaskDisconnect())}
             >
-              {/* {isDesktop && "Disconnect"} */}
               {isTablet || isDesktop ? (
                 <img src={Disconnect} alt="Wallet-img" />
               ) : (
@@ -161,7 +115,6 @@ function Dropdown() {
             </div>
           )}{" "}
         </div>{" "}
-        {/* {isDesktop && <img src={Connect} alt="FoxImg" />} */}
       </div>
     </>
   );

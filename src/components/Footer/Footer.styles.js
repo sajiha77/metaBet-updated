@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* position: relative; */
-  /* background: #081d2a; */
   max-width: 340px;
 
   .wrapper-btn {
@@ -22,7 +20,6 @@ export const Container = styled.div`
     background: none;
     border: none;
     width: 95px;
-    /* width: 130px; */
     color: white;
     font-size: 16px;
   }
@@ -51,7 +48,6 @@ export const Container = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
-      /* padding-right: 169px; */
     }
   }
   .text {
@@ -140,7 +136,6 @@ export const Container = styled.div`
   }
 
   hr {
-    /* width: 1246px; */
     height: 1px;
     background: #969696;
     opacity: 0.2;
@@ -164,20 +159,12 @@ export const Container = styled.div`
   @media screen and (max-width: 1080px) {
     width: 100%;
     max-width: initial;
-
-    /* .bottom-hr {
-      max-width: 1000px;
-    } */
     .list--item-1 {
       justify-content: space-around;
       padding: 35px 0px 0px 0px;
       gap: 77px;
     }
-    .list--item-2 > ul {
-      /* justify-content: space-around;
-      padding: 0px; */
-      /* gap: 5px; */
-    }
+
     .list--item-1 > ul > li > a {
       font-size: 18px;
     }
@@ -199,19 +186,12 @@ export const Container = styled.div`
       padding-bottom: 30px;
     }
   }
-  @media screen and (max-width: 820px) {
-    /* .bottom-hr {
-      max-width: 295px;
-    } */
-  }
+
   @media screen and (max-width: 768px) {
     width: 100%;
     max-width: initial;
     padding: 0px;
 
-    /* .bottom-hr {
-      max-width: 1000px;
-    } */
     .list--item-1 {
       justify-content: space-between;
       padding: 0px;
@@ -223,8 +203,6 @@ export const Container = styled.div`
     }
 
     .list--item-2 > ul {
-      /* justify-content: space-around;
-      padding: 0px; */
       gap: 15px;
     }
 

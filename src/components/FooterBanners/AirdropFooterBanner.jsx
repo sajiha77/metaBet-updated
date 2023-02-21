@@ -8,7 +8,6 @@ const AirdropFooterBanner = () => {
     <>
       <NavLink to="/Airdrops">
         <AirdroptBetContainer background={AirdropBanner}></AirdroptBetContainer>
-        {/* <img src={AirdropBanner} alt="" /> */}
       </NavLink>
     </>
   );

@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Container, Truth2earnContainer } from "./Truth2earn.styles";
-// import Truth2earnComponent from "../Truth2earnComponent/Truth2earnComponent";
-// import Selector from "../Selector/Selector";
 import { Filter } from "../ActiveBet/ActiveBetData";
 import FeaturedBanners from "../../Components/FeaturedBanners/FeaturedBanners";
 import { Politics_banner_data } from "../../JasonData/FeaturedBannerData";
-import voteUp from "../../assets/images/Politics/voteUp.png";
-import voteDown from "../../assets/images/Politics/voteDown.png";
 import VoteBtnUp from "../../assets/images/Vote_btn_Up.webp";
 import VoteBtnDown from "../../assets/images/Vote_btn_Down.webp";
 import eventended from "../../assets/images/Event_ended_btn.png";
@@ -55,8 +51,6 @@ const Truth2earn = (props) => {
                 vote_btn={item.vote_btn}
                 vote_up={item.vote_up}
                 route_path={item.route_path}
-                // btn_name={item.btn_name}
-                // innerData={item.innerData}
               />
               <div className="vote">
                 {item.event_status === false ? (
@@ -65,8 +59,6 @@ const Truth2earn = (props) => {
                     <img
                       src={item.id === showAccord ? VoteBtnUp : VoteBtnDown}
                       onClick={() => {
-                        // openMenu(item.id);
-                        // setOpen(!isOpen);
                         setShowAccord(!isOpen ? item.id : false);
                       }}
                       alt="eventEnded"

@@ -4,11 +4,10 @@ import "./User.css";
 import txid from "../../../assets/images/Token/txid.webp";
 import removeicon from "../../../assets/images/Token/removeicon.webp";
 import AddButton from "../../../assets/images/Token/AddButton.png";
-import {users} from '../address/address'
+import { users } from "../address/address";
 
 const TeamWallets = () => {
-
-  console.log(users)
+  console.log(users);
 
   const [search, setSearch] = useState([]);
   console.log("my value", search);
@@ -16,7 +15,6 @@ const TeamWallets = () => {
   const GetQuery = () => {};
   const handleClick = () => {
     setSearch((search) => [...search, query]);
-
   };
   const updateQuery = ({ target }) => {
     setQuery(target.value);
@@ -27,7 +25,6 @@ const TeamWallets = () => {
     }
   };
   console.log(query);
-  
 
   return (
     <div>
@@ -35,21 +32,32 @@ const TeamWallets = () => {
         {/* we need to use Object.values in order to specify that users array holds objects */}
         {Object.values(users).map((item, index) => (
           <ul key={index}>
-            {/* <li>{item.id}</li> */}
-            <li><div><img src={item.icon1} alt="txid"/></div><a>{item.name}</a></li>
-            <button><div><img src={item.icon2} alt="remove"/></div>Remove</button>
+            <li>
+              <div>
+                <img src={item.icon1} alt="txid" />
+              </div>
+              <a>{item.name}</a>
+            </li>
+            <button>
+              <div>
+                <img src={item.icon2} alt="remove" />
+              </div>
+              Remove
+            </button>
           </ul>
         ))}
-       { search.map((item) => (
-        
-         <ul>
-          <li><img src={txid} alt="txid"/><a>{item}</a></li>
-          <button><img src={removeicon} alt="removeicon"/>Remove</button>
+        {search.map((item) => (
+          <ul>
+            <li>
+              <img src={txid} alt="txid" />
+              <a>{item}</a>
+            </li>
+            <button>
+              <img src={removeicon} alt="removeicon" />
+              Remove
+            </button>
           </ul>
-         
-       ))
-
-       }
+        ))}
       </div>
       <div className="SubmitAddress">
         <div className="WalletAddress">

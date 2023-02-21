@@ -44,16 +44,6 @@ function Dropdown() {
             <img src={NFTbuy} alt="NFTbuy" />
           </div>
         </div>
-
-        {/* {!metaMaskAddress.metaMaskAddress ? (
-          <button id="btn" onClick={() => dispatch(metaMaskConnection())}>
-            Connect Wallet{" "}
-          </button>
-        ) : (
-          <button id="btn" style={{ background: "#fc4c1e" }}>
-            BET
-          </button>
-        )} */}
       </div>
     </div>
   );

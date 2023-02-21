@@ -38,11 +38,8 @@ import Flag8 from "../assets/images/CricketMainBanner/England_flag.webp";
 import Flag9 from "../assets/images/CricketMainBanner/India_flag.webp";
 
 // Country Images //
-import poland from "../assets/images/WorldcupBanner/Poland.webp";
 import england from "../assets/images/WorldcupBanner/england.webp";
 import france from "../assets/images/WorldcupBanner/france.webp";
-import senegal from "../assets/images/WorldcupBanner/senegal.webp";
-import japan from "../assets/images/WorldcupBanner/japan.webp";
 import croatia from "../assets/images/WorldcupBanner/croatia.webp";
 import Morroco from "../assets/images/WorldcupBanner/flagA.webp";
 import Spain from "../assets/images/WorldcupBanner/flagB.webp";
@@ -51,7 +48,6 @@ import Switzerland from "../assets/images/WorldcupBanner/Switzerland.webp";
 import Netherlands from "../assets/images/WorldcupBanner/Netherlands.webp";
 import Argentina from "../assets/images/WorldcupBanner/Argentina.webp";
 import Brazil from "../assets/images/WorldcupBanner/Brazil.webp";
-import Korea from "../assets/images/WorldcupBanner/Korea.webp";
 
 import England_flag from "../assets/images/WorldcupBanner/england.webp";
 import France_flag from "../assets/images/WorldcupBanner/france.webp";
@@ -104,19 +100,7 @@ import tbanner16 from "../assets/images/Politics/tbanner16.webp";
 import tbanner17 from "../assets/images/Politics/tbanner17.webp";
 import btnIcon from "../assets/images/Politics/btnIcon.webp";
 
-// Politics Banners //
-import Pol_Banner_1 from "../assets/images/Politics/Politics_banner1.webp";
-import Pol_Banner_2 from "../assets/images/Politics/Politics_banner2.webp";
-import Pol_Banner_3 from "../assets/images/Politics/Politics_banner3.webp";
-import Pol_Banner_4 from "../assets/images/Politics/Politics_banner4.webp";
-import Pol_Banner_5 from "../assets/images/Politics/Politics_banner5.webp";
-import Pol_Banner_6 from "../assets/images/Politics/Politics_banner6.webp";
-import Pol_Banner_7 from "../assets/images/Politics/Politics_banner7.webp";
-import Pol_Banner_8 from "../assets/images/Politics/Politics_banner8.webp";
-import Pol_Banner_9 from "../assets/images/Politics/Politics_banner9.webp";
-
 // Politics Inner Data //
-import Poli_inner_img_1 from "../assets/images/Politics/elon.webp";
 import Poli_inner_img_2 from "../assets/images/Politics/Predict$.webp";
 import Poli_inner_img_3 from "../assets/images/Politics/SBF.webp";
 import Poli_inner_img_4 from "../assets/images/Politics/Twitter-crypto.webp";
@@ -223,39 +207,6 @@ export const FeaturedBannersInfo = [
       },
     ],
   },
-  // {
-  //   id: 3,
-  //   background_img: Banner_11,
-  //   countryImg_1: croatia,
-  //   country_name_1: "Croatia",
-  //   route_path: "/EventInfo",
-  //   countryImg_2: Morroco,
-  //   country_name_2: "Morroco",
-  //   vs: "VS",
-  //   btn_name: "Event Ended",
-
-  //   innerData: [
-  //     {
-  //       id: 3,
-  //       background_img: "",
-  //       countryImg_1: croatia,
-  //       country_name_1: "Croatia",
-  //       statistic_1: "Statistic: ",
-  //       fifa_rank_1: "Fifa Rank 12",
-  //       total_points_1: "Total Points 1645",
-  //       vs: "VS",
-  //       event_status: "Event Starts",
-  //       date: "17 December 2022, 19:00",
-  //       pool_status: "POOL LIVE",
-  //       countryImg_2: Morroco,
-  //       country_name_2: "Morroco",
-  //       statistic_2: "Statistic: ",
-  //       fifa_rank_2: "Fifa Rank 22",
-  //       total_points_2: "Total Points 1563",
-  //     },
-  //   ],
-  // },
-
   {
     id: 4,
     background_img: Banner_3,
@@ -853,9 +804,6 @@ export const FootballFeaturedBanners = [
     id: 3,
     background_img: mainBanner3,
     football_data: "Football",
-
-    // route_path: "/EventInfo",
-
     innerData: [
       {
         id: 1,
@@ -1004,7 +952,6 @@ export const FootballFeaturedBanners = [
   {
     id: 5,
     background_img: mainBanner5,
-    // route_path: "/EventInfo",
     football_data: "Football",
 
     innerData: [
@@ -1391,13 +1338,6 @@ export const bData = [
     info: "Short information",
     btnColor: "#7b7b7b",
   },
-  // {
-  //   id: 2,
-  //   name: "DRAW",
-  //   btn: "BET",
-  //   info: "Short information",
-  //   btnColor: "#000000",
-  // },
   {
     id: 1,
     name: "WIN",
@@ -1477,7 +1417,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=_pqG1OToHlw",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -1516,7 +1455,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=2L075vZNSdw",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -1553,7 +1491,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=q7hkqTEDD_g",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -1688,7 +1625,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=pnxVSFk_jZc",
-        // prediction_video: "https://www.youtube.com/watch?v=s3dam1xIjP4",
       },
     ],
   },
@@ -1725,7 +1661,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=Vyd8cy2cC4U",
-        // prediction_video: "https://www.youtube.com/watch?v=Lwy-Xv3DmvA",
       },
     ],
   },
@@ -1762,7 +1697,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=rZl255ra5cA",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -1799,7 +1733,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=1VlEzXt-4No",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -1836,7 +1769,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/shorts/QjTss2KNuNY",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -1874,7 +1806,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=Zq7hJ3GH0E8",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -1911,7 +1842,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=Zq7hJ3GH0E8",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -1950,7 +1880,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=Zq7hJ3GH0E8",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -1988,7 +1917,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=2XmpZ4hiZGA",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -2035,7 +1963,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=QnpbCVQ4VYw",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -2072,7 +1999,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=KyXCUvVeH8A",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
@@ -2111,7 +2037,6 @@ export const Politics_banner_data = [
           },
         ],
         review_video: "https://www.youtube.com/watch?v=YOfBjaKFUuI",
-        // prediction_video: "https://youtu.be/22Eikye6uJg",
       },
     ],
   },
