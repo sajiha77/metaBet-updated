@@ -54,7 +54,6 @@ const ActiveBetHistory = () => {
                         <span>{item.th_4}</span>
                         <span>{item.th_5}</span>
                       </div>
-                      {/* <hr /> */}
                       <div className="bet-td1">
                         <span>{item.td_3}</span>
                         <img src={item.td_4} alt="" />
@@ -79,17 +78,6 @@ const ActiveBetHistory = () => {
                     </div>
                   </div>
                   <hr />
-                  {/* <div className="bet-item-2">
-                <div className="table-wrapper">
-                  <div className="bet-th">
-                  
-                  </div>
-                  <hr />
-                  <div className="bet-td">
-                    <img src={item.icon_2} alt="" />
-                  </div>
-                </div>
-              </div> */}
                 </div>
               </>
             );

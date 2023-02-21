@@ -14,7 +14,7 @@ export const Container = styled.div`
     display: flex;
     max-width: ${(props) => (props.removeWidth ? "300px" : "0px")};
     width: 100%;
-    padding: 0px 40px 0px 0px;
+    padding: 10px 20px;
     min-height: 49px;
     background: ${(props) => (props.changeColor ? "#0f212e" : "#1b2c38")};
     box-shadow: ${(props) =>

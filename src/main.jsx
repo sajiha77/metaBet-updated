@@ -14,7 +14,7 @@ import Dashboard from "./routes/Dashboard";
 
 // Components //
 import WORLDCUPLANDINGPAGE from "./components/WorldcupLandingPage/WorldcupLandingPage";
-import DXY from "./components/DXY/DXY";
+// import DXY from "./components/DXY/DXY";
 import BITCOIN from "./components/BitcoinPrice/Bitcoin";
 import ETHEREUM from "./components/Ethereum/Ethereum";
 

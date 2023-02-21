@@ -109,10 +109,10 @@ export const Truth2earnContainer = styled.div`
     flex-direction: column;
     gap: 10px;
   }
-  .truth2earn {
+  /* .truth2earn {
     align-items: center;
     justify-content: center;
-  }
+  } */
 
   .payments-inputs > .openai {
     display: flex;

@@ -1,5 +1,4 @@
 import React from "react";
-import Maintenance from "../Maintenance/Maintenance";
 import { TRUSCTokenContainer, Container1, Balance } from "./TRUSCToken.styles";
 import { Tdata } from "./TRUSCData";
 import Trueai from "../../assets/images/TRUSC/Trueai.webp";

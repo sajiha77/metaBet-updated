@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Container, StatContainer, Info } from "./BitcoinPrice.styles";
-import { Stats1, Stats2 } from "../FifaFootball/FifaFootballData";
 import Tabs from "../TabFifa/Tab";
 import useBreakpoint from "../../hooks/useBreakpoints";
 import BtcUp from "../../assets/images/Bitcoin/BtcUp.webp";

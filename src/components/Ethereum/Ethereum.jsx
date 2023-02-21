@@ -5,12 +5,6 @@ import {
   StatContainer,
   Info,
 } from "../BitcoinPrice/BitcoinPrice.styles";
-import {
-  Stats1,
-  Stats2,
-  Stats3,
-  Stats4,
-} from "../FifaFootball/FifaFootballData";
 import Times from "../Time/Times";
 import Tabs from "../TabFifa/Tab";
 import AirdropFooter from "../FooterBanners/AirdropFooter";
