@@ -213,7 +213,6 @@ export const FeaturedBannersContainer = styled("div")`
   @media screen and (max-width: 820px) {
     width: 100%;
     max-width: 300px;
-    margin: 0px auto 0px;
 
     .featured-banner-wrapper {
       /* padding: 35px; */
@@ -300,6 +299,7 @@ export const FeaturedBannersContainer = styled("div")`
 
   @media screen and (max-width: 768px) {
     max-width: 317px;
+    margin: 0px;
 
     .featured-banner-wrapper {
       padding: 25px;
@@ -493,7 +493,7 @@ export const FeaturedBannersContainer = styled("div")`
 
   @media screen and (max-width: 375px) {
     height: 93px;
-
+    margin: 0px;
     .featured-banner-wrapper {
       .politics-btn {
         .button-1 {

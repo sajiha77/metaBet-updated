@@ -48,6 +48,12 @@ export const Container = styled.div`
       gap: 4px;
     }
   }
+  @media screen and (max-width: 1080px) {
+    .filter-btn {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
   @media screen and (max-width: 1024px) {
     .filter-btn {
       display: flex;
@@ -102,6 +108,10 @@ export const Truth2earnContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+  .truth2earn {
+    align-items: center;
+    justify-content: center;
   }
 
   .payments-inputs > .openai {
@@ -171,6 +181,9 @@ export const Truth2earnContainer = styled.div`
       cursor: pointer;
     }
   }
+  @media screen and (max-width: 1080px) {
+    grid-template-columns: 1fr 1fr;
+  }
   @media screen and (max-width: 1024px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -179,7 +192,7 @@ export const Truth2earnContainer = styled.div`
   }
   @media screen and (max-width: 912px) {
     grid-template-columns: 1fr;
-    padding: 0px 80px;
+    /* padding: 0px 80px; */
     .get_accord {
       width: 100%;
       max-width: 300px;
@@ -195,8 +208,12 @@ export const Truth2earnContainer = styled.div`
   }
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
-    padding: 0px;
+    padding: 0px 0px;
     gap: 10px;
+    .truth2earn {
+      align-items: center;
+      justify-content: center;
+    }
 
     .get_accord {
       width: 100%;
@@ -205,11 +222,11 @@ export const Truth2earnContainer = styled.div`
   }
   @media screen and (max-width: 540px) {
     grid-template-columns: 1fr;
-    padding: 0px 110px;
+    /* padding: 0px 110px; */
   }
   @media screen and (max-width: 412px) {
     grid-template-columns: 1fr;
-    padding-left: 35px;
+    /* padding-left: 35px; */
   }
   @media screen and (max-width: 375px) {
     grid-template-columns: 1fr;

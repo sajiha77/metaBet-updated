@@ -75,6 +75,18 @@
   border-bottom-right-radius: 8px;
 }
 
+.dropdown-section {
+  display: flex;
+  padding: 0px 8px;
+  width: 100%;
+  /* justify-content: flex-end;
+  gap: 130px; */
+
+}
+
+#google_element {
+  padding: 0px 10px;
+}
 
 
 .dropdown .dropdownBtn button img {

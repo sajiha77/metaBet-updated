@@ -64,9 +64,9 @@ const ContainerWrapper = styled("div")`
     grid-column: 1 / span 3;
   }
 
-  @media screen and (max-width: 1080px) {
-    header {
-      /* z-index: 0; */
+  @media screen and (max-width: 768px) {
+    .left-sidebar {
+      display: none;
     }
   }
 `;
@@ -86,7 +86,7 @@ const Dashboard = () => {
             <Nav />
           </header>
           <div className="wrapper-main">
-            {isDesktop && (
+            {(isDesktop || isTablet) && (
               <div className="left-sidebar">
                 <Sidebar />
               </div>

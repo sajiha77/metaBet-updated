@@ -51,10 +51,10 @@ export const PoliticsContainer = styled.div`
     grid-template-columns: 1fr 1fr;
   }
   @media screen and (max-width: 920px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   @media screen and (max-width: 912px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   @media screen and (max-width: 820px) {
     max-width: 417px;
