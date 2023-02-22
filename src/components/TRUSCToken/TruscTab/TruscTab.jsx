@@ -8,7 +8,7 @@ import swap_btn from "../../../assets/images/TRUSC/swap_btn.webp";
 import foxhalo from "../../../assets/images/TRUSC/fox_2.webp";
 import Tether from "../../../assets/images/TRUSC/Tether.webp";
 import USDC from "../../../assets/images/TRUSC/USDC.webp";
-import BNB from "../../../assets/images/TRUSC/BNB.webp";
+import BUSD from "../../../assets/images/TRUSC/BUSD.webp";
 import fox from "../../../assets/images/TRUSC/fox_plain.webp";
 import rightTab from "../../../assets/images/TRUSC/right_tab.png";
 import foxmini from "../../../assets/images/TRUSC/fox-mini.webp";
@@ -94,7 +94,7 @@ class Tabs extends Component {
                   <span>$0.00</span>
                 </div>
                 <div className="icon">
-                  <img src={BNB} al="BNB" />
+                  <img src={BUSD} al="BUSD" />
                   <span>$0.00</span>
                 </div>
                 <div className="icon">
@@ -182,7 +182,7 @@ class Tabs extends Component {
                   <span>$0.00</span>
                 </div>
                 <div className="icon">
-                  <img src={BNB} alt="BNB" />
+                  <img src={BUSD} alt="BUSD" />
                   <span>$0.00</span>
                 </div>
                 <div className="icon">
