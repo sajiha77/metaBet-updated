@@ -20,6 +20,8 @@ import ETHEREUM from "./components/Ethereum/Ethereum";
 
 import FOOTBALL from "./components/LandingPage/landingPage";
 import CIRCKET from "./components/CricketBanners/CricketLandingPage";
+import CRICKETEVENT from "./components/CricketBanners/CricketEvent";
+
 import UFC from "./pages/UFC";
 import POLITICS from "./pages/Polities";
 import PoliticsDetails from "./components/Politics/PoliticsDetails";
@@ -72,7 +74,7 @@ const router = createBrowserRouter([
         element: <Truth2earn />,
       },
       {
-        path: "/TRUSC-Token",
+        path: "/trusc-token",
         element: <TRUSCToken />,
       },
       {
@@ -96,6 +98,10 @@ const router = createBrowserRouter([
         element: <CIRCKET />,
       },
       {
+        path: "/cricket-event",
+        element: <CRICKETEVENT />,
+      },
+      {
         path: "/ufc",
         element: <UFC />,
       },
@@ -112,7 +118,7 @@ const router = createBrowserRouter([
         element: <POLITICS />,
       },
       {
-        path: "/PoliticsDetails",
+        path: "/politics-details",
         element: <PoliticsDetails />,
       },
       {
