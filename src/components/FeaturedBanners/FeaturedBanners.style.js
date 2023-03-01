@@ -36,6 +36,7 @@ export const FeaturedBannersContainer = styled("div")`
 
     .politics-btn {
       width: 100%;
+      cursor: pointer;
 
       a {
         width: 100%;

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, Navigate } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import "./index.css";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
@@ -12,23 +12,18 @@ import { RouterProvider } from "react-router";
 // Routes //
 import Dashboard from "./routes/Dashboard";
 
-// Components //
-import WORLDCUPLANDINGPAGE from "./components/WorldcupLandingPage/WorldcupLandingPage";
-// import DXY from "./components/DXY/DXY";
-import BITCOIN from "./components/BitcoinPrice/Bitcoin";
-import ETHEREUM from "./components/Ethereum/Ethereum";
-
-import FOOTBALL from "./components/LandingPage/landingPage";
-import CIRCKET from "./components/CricketBanners/CricketLandingPage";
-import CRICKETEVENT from "./components/CricketBanners/CricketEvent";
-
+// Pages //
 import UFC from "./pages/UFC";
 import POLITICS from "./pages/Polities";
-import PoliticsDetails from "./components/Politics/PoliticsDetails";
+import DXYPage from "./pages/DXYPage";
 
-import FEATUREDEVENT from "./components/FeaturedBanners/FeaturedBanners";
-import EVENTINFO from "./components/FeaturedEvents/EventInfo";
-
+// Components //
+import WORLDCUPLANDINGPAGE from "./components/WorldcupLandingPage/WorldcupLandingPage";
+import BITCOIN from "./components/BitcoinPrice/Bitcoin";
+import ETHEREUM from "./components/Ethereum/Ethereum";
+import CIRCKET from "./components/CricketBanners/CricketLandingPage";
+import CRICKETEVENT from "./components/CricketBanners/CricketEvent";
+import POLITICSDETAILS from "./components/Politics/PoliticsDetails";
 import HOWITWORKS from "./components/HowItsWork/HowItWorks";
 import MYACTIVEBETS from "./components/ActiveBet/ActiveBet";
 import MYBETHISTORY from "./components/BETHistory/BETHistory";
@@ -42,10 +37,15 @@ import COOKIES from "./components/Cookies/Cookies";
 import PRIVACY from "./components/Privacy/Privacy";
 import TERMS from "./components/Terms/Terms";
 import Test from "./components/UFcComponents/Test";
-import StatsComponent from "./components/Statistics/StatsComponent";
-import DXYPage from "./pages/DXYPage";
-import Truth2earn from "./components/Truth2earn/Truth2earn";
-import TRUSCToken from "./components/TRUSCToken/TRUSCToken";
+import STATSCOMPONENT from "./components/Statistics/StatsComponent";
+import TRUTH2EARN from "./components/Truth2earn/Truth2earn";
+import TRUSCTOKEN from "./components/TRUSCToken/TRUSCToken";
+
+// Football Events Section //
+import REGFOOTBALL from "./pages/RegFootball";
+
+// Leagues Section //
+import ALLFOOTBALLEVENTS from "./components/FootballLeagues/Football";
 
 let persistor = persistStore(store);
 const router = createBrowserRouter([
@@ -71,11 +71,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/truth-2-earn",
-        element: <Truth2earn />,
+        element: <TRUTH2EARN />,
       },
       {
         path: "/trusc-token",
-        element: <TRUSCToken />,
+        element: <TRUSCTOKEN />,
       },
       {
         path: "/dxy",
@@ -91,7 +91,37 @@ const router = createBrowserRouter([
       },
       {
         path: "/football",
-        element: <FOOTBALL />,
+        element: <REGFOOTBALL />,
+        children: [
+          {
+            path: "champions-league",
+            element: <ALLFOOTBALLEVENTS group_type="champions-league" />,
+          },
+          {
+            path: "ligue-1",
+            element: <ALLFOOTBALLEVENTS group_type="ligue-1" />,
+          },
+          {
+            path: "laliga",
+            element: <ALLFOOTBALLEVENTS group_type="laliga" />,
+          },
+          {
+            path: "premier-league",
+            element: <ALLFOOTBALLEVENTS group_type="premier-league" />,
+          },
+          {
+            path: "serie-a",
+            element: <ALLFOOTBALLEVENTS group_type="serie-a" />,
+          },
+          {
+            path: "bundesliga",
+            element: <ALLFOOTBALLEVENTS group_type="bundesliga" />,
+          },
+        ],
+      },
+      {
+        path: ":group/:title/stats/:id",
+        element: <STATSCOMPONENT />,
       },
       {
         path: "/cricket",
@@ -103,7 +133,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/ufc",
-        element: <UFC />,
+        element: <UFC group_type="ufc" />,
       },
       {
         path: "/event/:group/:title",
@@ -111,7 +141,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/stats/:group/:title/:id",
-        element: <StatsComponent />,
+        element: <STATSCOMPONENT />,
       },
       {
         path: "/politics",
@@ -119,7 +149,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/politics-details",
-        element: <PoliticsDetails />,
+        element: <POLITICSDETAILS />,
       },
       {
         path: "/whitepaper",

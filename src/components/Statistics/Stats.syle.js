@@ -27,7 +27,7 @@ export const StatisticsContainer = styled.div`
         color: #ffffff;
       }
       img {
-        width: 149px;
+        width: 70px;
       }
     }
 
@@ -189,6 +189,73 @@ export const StatisticsContainer = styled.div`
 
       span {
         font-size: 10px;
+      }
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .player-VS {
+      min-width: 33px;
+      gap: 0px;
+
+      span:nth-child(1) {
+        font-weight: 500;
+        font-size: 12px;
+      }
+      span {
+        font-weight: 500;
+        font-size: 7px;
+        padding: 10px;
+      }
+
+      .time {
+        font-size: 7px;
+
+        span:nth-child(1) {
+          font-size: 7px;
+        }
+
+        span {
+          font-size: 9px;
+          color: #ffd600;
+        }
+      }
+    }
+    .portfolio {
+      img {
+        max-width: 35px;
+      }
+
+      span {
+        font-size: 7px;
+      }
+    }
+
+    .vs {
+      max-width: 30px;
+      span:nth-child(1) {
+        font-size: 20px;
+      }
+
+      .time {
+        span:nth-child(1) {
+          font-size: 7px;
+        }
+
+        span {
+          font-size: 7px;
+        }
+      }
+    }
+
+    .rectangle {
+      max-width: 25px;
+
+      span:nth-child(1) {
+        font-size: 7px;
+      }
+
+      span {
+        font-size: 6px;
       }
     }
   }

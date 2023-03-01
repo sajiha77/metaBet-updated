@@ -1,17 +1,35 @@
 import React, { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { FootballLeaguesContainer } from "../components/FootballLeagues/FootballLeagues.style";
-import Loading from "../components/Loading/Loading";
-import { useAxios } from "../hooks/useAxios";
-import BetBTN from "../assets/images/bet-new-btn.png";
+import { useAxios } from "../../hooks/useAxios";
+import { FootballLeaguesContainer } from "./FootballLeagues.style";
+import BetBTN from "../../assets/images/bet-new-btn.png";
+import Loading from "../Loading/Loading";
 
-const UFC = ({ group_type }) => {
+const AllFootballEvents = ({ group_type }) => {
   const { fetchData, response, loading } = useAxios();
   const navigate = useNavigate();
   const location = useLocation();
   const { pathname } = location;
 
-  console.log(pathname);
+  const title =
+    group_type === "champions-league"
+      ? "Chanpions League"
+      : "" || group_type === "ligue-1"
+      ? "Ligue 1"
+      : "" || group_type === "laliga"
+      ? "La Liga"
+      : "" || group_type === "premier-league"
+      ? "Premier League"
+      : "" || group_type === "serie-a"
+      ? "Serie A"
+      : "" || group_type === "bundesliga"
+      ? "Bundesliga"
+      : "";
+
+  //   const newTitle = title.replace(/[^a-zA-Z0-9-]/g, "");
+  //   const updatedTitle = title.replace(/-/g, " ");
+
+  // console.log("first", title);
 
   const getEvent = async () => {
     await fetchData({
@@ -25,14 +43,13 @@ const UFC = ({ group_type }) => {
     window.scrollTo(0, 0);
   }, []);
 
-  const event = response?.map((item) => item?.event?.title);
   const highlightsData = response?.map((item) => item?.event?.highlights[0]);
 
-  console.log("res", event);
+  // console.log("res", response);
   return (
     <FootballLeaguesContainer>
       <div className="football-loading-wrapper">
-        <h1>Ultimate Fighting Championship (UFC Events)</h1>
+        <h1>{title}</h1>
         {loading ? (
           <div className="loading">
             <Loading />
@@ -46,34 +63,24 @@ const UFC = ({ group_type }) => {
             ) : (
               highlightsData?.map((item, index) => (
                 <>
-                  {console.log(item)}
                   <div className="card" key={index}>
                     <div className="card__header">
                       <img src={item?.data?.background_img} alt="" />
                     </div>
-                    <div
-                      className="card__body"
-                      style={{
-                        transform: "translate(53px, 48px)",
-                        gap: "61px",
-                      }}
-                    >
+                    <div className="card__body">
                       <div className="card_item">
                         <div className="img_item">
-                          <img src={item?.data?.player_Img_1} alt="" />
+                          <img src={item?.data?.flag_Img_1} alt="" />
                         </div>
-                        {/* <span>{item?.data?.player_name_1}</span> */}
+                        <span>{item?.data?.flag_name_1}</span>
                       </div>
                       <div className="bet-btn-wrapper">
                         <span>VS</span>
                         <div
                           onClick={() =>
-                            navigate(
-                              `${pathname}/${event}/stats/${item?._id}`,
-                              {
-                                state: item?._id,
-                              }
-                            )
+                            navigate(`${pathname}/stats/${item?._id}`, {
+                              state: item?._id,
+                            })
                           }
                         >
                           <img src={BetBTN} alt="Bet Now" />
@@ -82,11 +89,11 @@ const UFC = ({ group_type }) => {
                       <div className="card_item">
                         <div className="img_item">
                           <img
-                            src={item?.data?.player_Img_2}
-                            alt={item?.data?.player_name_2}
+                            src={item?.data?.flag_Img_2}
+                            alt={item?.data?.flag_name_2}
                           />
                         </div>
-                        {/* <span>{item?.data?.player_name_2}</span> */}
+                        <span>{item?.data?.flag_name_2}</span>
                       </div>
                     </div>
                   </div>
@@ -104,4 +111,4 @@ const UFC = ({ group_type }) => {
   );
 };
 
-export default UFC;
+export default AllFootballEvents;
